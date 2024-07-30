@@ -55,7 +55,6 @@ public class OrdemCompraService {
                 .filter(cliente -> cliente.getCompras().stream()
                         .anyMatch(compra -> compra.getProduto().getAnoCompra().equals(ano)))
                 .collect(Collectors.toList())) {
-
             for (Compra compra : ordemCompra.getCompras().stream()
                     .filter(compra -> compra.getProduto().getAnoCompra().equals(ano))
                     .collect(Collectors.toList())) {
