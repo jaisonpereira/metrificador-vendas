@@ -18,7 +18,19 @@ http://localhost:8080/compras
 
 - GET: /maior-compra/ano - (Exemplo: /maior_compra/2016) - Retornar a maior compra do ano informando os dados da compra disponibilizados, deve ter o nome do cliente, cpf do cliente, dado do produto, quantidade da compra e seu valor total.
 
+``` java
+http://localhost:8080/maior-compra/2016
+```
 
 - GET: /clientes-fieis - Retornar o Top 3 clientes mais fieis, clientes que possuem mais compras recorrentes com maiores valores.
 
+``` java
+http://localhost:8080/clientes-fieis
+```
+
 - GET: /recomendacao/cliente/tipo - Retornar uma recomendação de vinho baseado nos tipos de vinho que o cliente mais compra.
+  
+
+``` java
+http://localhost:8080/recomendacao/cliente/tipo
+```
