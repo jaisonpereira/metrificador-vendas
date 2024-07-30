@@ -2,6 +2,7 @@
 
 - Java 17
 - Spring boot 3.3.2
+- Junit testes unitarios
 
 
 Problematica 
