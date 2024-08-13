@@ -92,5 +92,4 @@ public class OrdemCompraService {
                         .map(dto -> OrdemCompraBuilder.build(dto, produtosDto))
                         .collect(Collectors.toList());
     }
-
 }

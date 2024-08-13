@@ -35,3 +35,37 @@ http://localhost:8080/clientes-fieis
 ``` java
 http://localhost:8080/recomendacao/cliente/tipo
 ```
+
+
+A Conjectura de Collatz é um problema matemático simples de entender, mas ainda não completamente resolvido.
+
+Basicamente, ela diz que se você pegar qualquer número inteiro positivo e aplicar as seguintes regras:
+
+* Se o número for par, divida-o por 2,
+
+* Se o número for ímpar, multiplique-o por 3 e some 1,
+
+Você continuará repetindo essas regras com o resultado obtido, e eventualmente chegará ao número 1, independentemente do número inicial escolhido.
+
+Exemplo:
+
+começando com o número 10
+
+10 → 5 → 16 → 8 → 4 → 2 → 1.
+
+7 interações
+
+começando com o número 6:
+
+6 → 3 → 10 → 5 → 16 → 8 → 4 → 2 → 1.
+
+9 interações
+
+começando com o número 7
+
+7 → 22 → 11 → 34 → 17 → 52 → 26 → 13 → 40 → 20 → 10 → 5 → 16 → 8 → 4 → 2 → 1.
+
+17 interações
+
+
+Escreva uma função que recebe um número e retorna a quantidade de interações até chegar no 1.
